@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <title>United Kingdom Scholarships - Scholarshipengine.net</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Scholarshipengine.net, scholarship, scholarships" name="keywords">
+    <meta content="Scholarshipengine.net provides a large selection of scholarships from the United Kingdom" name="description">
+
+    <!-- Favicon -->
+    <link href="/img/favicon" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light p-0 fixed-top">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-graduation-cap me-3"></i>Scholarshipengine.net</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0 p-5 p-lg-0">
+                <ul class="navbar-nav ml-auto"> <!-- Apply the "ml-auto" class here -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://scholarshipengine.net/">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <!-- Add "dropdown" class to create a dropdown menu -->
+                    <a class="nav-link active dropdown-toggle" href="" id="scholarshipDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Scholarships
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="scholarshipDropdown">
+                        <!-- Add the "dropdown-menu" class to create the dropdown content -->
+                        <a class="dropdown-item" href="/scholarship/category/all.html">All</a>
+                        <a class="dropdown-item" href="/scholarship/category/australia-scholarships.html">Australia</a>
+                        <a class="dropdown-item" href="/scholarship/category/canada-scholarships.html">Canada</a>
+                        <a class="dropdown-item" href="/scholarship/category/europe-scholarships.html">Europe</a>
+                        <a class="dropdown-item" href="/scholarship/category/india-scholarships.html">India</a>
+                        <a class="dropdown-item" href="/scholarship/category/united-kingdom-scholarships.html">United Kingdom</a>
+                        <a class="dropdown-item" href="/scholarship/category/united-states-scholarships.html">United States</a>
+                        <!-- Add more scholarship categories as needed -->
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact</a>
+                </li>
+            </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-0 mt-5 sticky-top">
+        <div class="container p-2 mt-5">
+            <div class="row justify-content-center ">
+                    <div class="col-lg-10 text-center mt-5">
+                        <input type="text" id="searchInput" class="form-control mt-3 p-0"  placeholder="      Search....." aria-label="Search" style="height: 45px; border-radius: 5px; width: 90%; margin-left: 5%;"/>
+                            <div class="menu-container mt-1">
+                                <div class="menu-items">
+                                    <a style="color: white;" href="/scholarship/category/united-states-scholarships.html">United States |</a>
+                                    <a style="color: white;" href="/scholarship/category/united-kingdom-scholarships.html">United Kingdom |</a>
+                                    <a style="color: white;" href="/scholarship/category/canada-scholarships.html">Canada |</a>
+                                    <a style="color: white;" href="/scholarship/category/australia-scholarships.html">Australia |</a>
+                                    <a style="color: white;" href="/scholarship/category/europe-scholarships.html">Europe |</a>
+                                    <a style="color: white;" href="/scholarship/category/india-scholarships.html">India</a>
+                                </div>
+                            </div>
+                            
+                        <h1 style="color:white; font-size:large; margin-bottom: 0px;"><strong>Explore scholarship opportunities from United Kingdom</strong></h1>
+                    </div>
+           </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- All scholarships Start -->
+    <div class="container-xxl py-3">
+        <div class="container">
+            <div class="row g-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-center text-primary px-3 mt-2 mb-3">U.K Scholarships</h6>
+                    <div  id="searchResultsContainer" class="justify-content-center"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="row row-cols-lg-4 row-cols-md row-cols text-center justify-content-center data-aos=fade-up mt-2" id="scholarshipContainer">
+								
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">Taught Master's Scholarships program </h5>
+                        <a href="/scholarship/taught-masters-scholarships" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 30.June.2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">Global Health Scholarship program</h5>
+                        <a href="/scholarship/global-health-scholarships" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 31.July.2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">Orangesoft Women in Technology Scholarship</h5>
+                        <a href="/scholarship/orangesoft-women-in-technology-scholarship-program" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 15.Nov.2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">The Lincoln Global Leaders Scholarship</h5>
+                        <a href="/scholarship/the-lincoln-global-leaders-scholarship" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 10.Nov.2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">BTH scholarship for current students</h5>
+                        <a href="/scholarship/bth-scholarship-programme-for-current-students" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 31.Jan.2024</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">BTH scholarship for prospective students</h5>
+                        <a href="/scholarship/bth-scholarship-programme-for-prospective-students" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 31.Jan.2024</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">BTH scholarship for prospective students</h5>
+                        <a href="/scholarship/bth-scholarship-programme-for-prospective-students" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 31.Jan.2024</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">Edinburgh Global Online Learning Masters </h5>
+                        <a href="/scholarship/edinburgh-global-online-learning-masters-scholarships" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 5.June.2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1"> Nottingham Developing Solutions Scholarship</h5>
+                        <a href="/scholarship/nottingham-developing-solutions-scholarships" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 17.May.2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">Tongarewa Scholarship at Victoria University</h5>
+                        <a href="/scholarship/tongarewa-scholarship-at-victoria-university-of-wellington" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 1 June/1 Sep/30 Nov 2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1"> International Ambassador Scholarships London</h5>
+                        <a href="/scholarship/international-ambassador-scholarships-at-university-of-west-london" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 11.July.2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">University Of GLASGOW Scholarship</h5>
+                        <a href="/scholarship/university-of-glasgow-international-leadership-scholarship" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes July.2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">GREAT Scholarships in UK</h5>
+                        <a href="/scholarship/great-scholarships-in-uk-for-international-students" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes  June.2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1"> Allan and Nesta Ferguson Charitable Trust masters scholarships</h5>
+                        <a href="/scholarship/allan-and-nesta-ferguson-charitable-trust-masters-scholarships" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 5.May.2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">UCL Global Masters Scholarship</h5>
+                        <a href="/scholarship/ucl-global-masters-scholarship" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 27.April.2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">The Global Wales Postgraduate Scholarship programme</h5>
+                        <a href="/scholarship/the-global-wales-postgraduate-scholarship-programme" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 31.May.2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1"> The Glenmore Medical Postgraduate Scholarship at the University of Edinburgh</h5>
+                        <a href="/scholarship/the-glenmore-medical-postgraduate-scholarship-at-the-university-of-edinburgh" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 1 June 2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">UWE Millennium Scholarship for International Students</h5>
+                        <a href="/scholarship/uwe-millennium-scholarship-for-international-students" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1">IOE Centenary Masters Scholarships</h5>
+                        <a href="/scholarship/ioe-centenary-masters-scholarships" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Closes 2 May 2023</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp card-link mb-3" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="text-center p-4 pb-0">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-1"> BNU Asylum Seeker Scholarship</h5>
+                        <a href="/scholarship/bnu-asylum-seeker-scholarship" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end m-3" style="border-radius: 30px;">Read More</a>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i></small>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <div id="pagination" style="padding-bottom: 50px; padding-top: 20px; margin-left: 80%;"></div>
+    
+    </div>
+    
+    <!-- All scholarships End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-4">
+                    <h4 class="text-white mb-3">Scholarship Categories</h4>
+                    <a class="btn btn-link" href="/scholarship/category/all.html">All</a>
+                    <a class="btn btn-link" href="/scholarship/category/united-states-scholarships.html">United States</a>
+                    <a class="btn btn-link" href="/scholarship/category/united-kingdom-scholarships.html">United Kingdom</a>
+                    <a class="btn btn-link" href="/scholarship/category/europe-scholarships.html">Europe</a>
+                    <a class="btn btn-link" href="/scholarship/category/canada-scholarships.html">Canada</a>
+                    <a class="btn btn-link" href="/scholarship/category/australia-scholarships.html">Australia</a>
+                    <a class="btn btn-link" href="/scholarship/category/india-scholarships.html">India</a>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="/about.html">About Us</a>
+                    <a class="btn btn-link" href="/contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="/terms-of-service.html">Terms & Condition</a>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>scholarshipengine.net@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; Scholarshipengine.net, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!--  Javascript -->
+    <script src="../..js/main.js"></script>
+    <script>
+        const scholarshipsPerPage = 27;
+const scholarshipContainer = document.getElementById('scholarshipContainer');
+const scholarships = scholarshipContainer.querySelectorAll('.card-link');
+
+const totalPages = Math.ceil(scholarships.length / scholarshipsPerPage);
+
+const pagination = document.getElementById('pagination');
+for (let i = 1; i <= totalPages; i++) {
+  const link = document.createElement('a');
+  link.innerText = i;
+  link.setAttribute('data-page', i);
+  link.href = '#';
+  pagination.appendChild(link);
+}
+
+showScholarships(1);
+pagination.querySelector('a[data-page="1"]').classList.add('active');
+
+pagination.addEventListener('click', (event) => {
+  if (event.target.tagName === 'A') {
+    event.preventDefault();
+    const page = parseInt(event.target.getAttribute('data-page'));
+    showScholarships(page);
+    setActivePage(page);
+  }
+});
+
+const searchInput = document.getElementById('searchInput');
+searchInput.addEventListener('input', () => {
+  const searchValue = searchInput.value.trim().toLowerCase();
+  const filteredScholarships = filterScholarships(scholarships, searchValue);
+  const numResults = filteredScholarships.length;
+  showScholarships(1, filteredScholarships);
+  renderSearchResults(numResults);
+});
+
+function showScholarships(page, scholarshipsToDisplay = scholarships) {
+  const startIndex = (page - 1) * scholarshipsPerPage;
+  const endIndex = startIndex + scholarshipsPerPage;
+  scholarshipsToDisplay.forEach((scholarship, index) => {
+    if (index >= startIndex && index < endIndex) {
+      scholarship.style.display = 'block';
+    } else {
+      scholarship.style.display = 'none';
+    }
+  });
+  if (scholarshipsToDisplay.length <= scholarshipsPerPage) {
+    pagination.style.display = 'none';
+  } else {
+    pagination.style.display = 'flex';
+  }
+  window.scrollTo(0, 0); // Scroll to the top of the page
+}
+
+function setActivePage(page) {
+  const activeLink = pagination.querySelector('.active');
+  if (activeLink) {
+    activeLink.classList.remove('active');
+  }
+  pagination.querySelector(`a[data-page="${page}"]`).classList.add('active');
+}
+
+function filterScholarships(scholarships, searchValue) {
+  return Array.from(scholarships).filter((scholarship) => {
+    const scholarshipText = scholarship.textContent.trim().toLowerCase();
+    return scholarshipText.includes(searchValue);
+  });
+}
+
+function renderSearchResults(numResults) {
+  const searchResultsContainer = document.getElementById('searchResultsContainer');
+  searchResultsContainer.innerHTML = '';
+  if (numResults === 0) {
+   searchResultsContainer.innerHTML = '<div class="alert alert-info" role="alert"><strong>No Scholarships Found For your Search.</strong></div>';
+	
+	
+  } else {
+    const resultString = numResults === 1 ? 'Scholarship' : 'Scholarships';
+   searchResultsContainer.innerHTML = `'<div class="alert alert-info" role="alert"><strong>Found ${numResults} ${resultString}.</strong></div>`;
+    const scholarshipContainer = document.getElementById('scholarshipContainer');
+    scholarshipContainer.innerHTML = '';
+    const scholarshipsToDisplay = filterScholarships(scholarships, searchInput.value.trim().toLowerCase());
+    scholarshipsToDisplay.forEach((scholarship) => {
+      scholarshipContainer.appendChild(scholarship);
+    });
+  }
+}
+// Trigger search function on input change
+$("#searchInput").on("input", function() {
+  var searchInput = $(this).val().toLowerCase(); // Get input value
+  if (searchInput === '') {
+    $("#searchResultsContainer").empty(); // Clear search results container if input is empty
+  } else {
+}
+});
+    </script>
+</body>
+
+</html>
